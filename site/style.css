@@ -1,0 +1,95 @@
+* {
+	box-sizing: border-box;
+}
+h1 {
+	font-family:  Georgia, serif;
+	font-size: 60;
+	color: darkblue;
+	background-color: green;
+}
+body {
+	font-family: Verdana, sans-serif;
+	fonz-size:  16px;
+	color:  black;
+}
+
+.nav {
+	width: 40%;
+	border-left-style: solid;
+	border-left-color: #005b9e;
+	border-left-width: 10px;
+	color:  black;
+	background-color: #cfe2f0;
+}
+
+.navElements {
+	text-align: left;
+	color: black;
+	font-family: sans-serif;
+	font-size: 20px;
+	padding-right:  1px;
+}
+
+.navElements:nth-child(3) {
+	text-align: left;
+	color: black;
+	font-family: sans-serif;
+	font-size: 20px;
+	padding-right: 1px;
+}
+
+a:link { 
+	text-decoration: none;
+	}
+
+#pic2 {
+	position:  relative;
+	left:  -3%;
+	top: 80%;
+}
+/* Container relative setzen, so schieben sich Objekte orientierend an diesem mit =>  */
+#divTest {
+	position: absolute;
+	right: 0.5%;
+	width: 15%;
+	height: 100%;
+	border: solid black 1px;
+	margin-top: 1%;
+	padding: 0.5%;
+}
+
+#navi {
+	width: 100%;
+	heigth: 6%;
+	border:  solid black 1px;
+	padding-left: 1%;
+	text-align: center;
+	font-size: 20px;
+}
+
+#middle {
+	margin-top: 1%;
+	position: absolute;
+	left: 15.5%;
+	height: 100%;
+	width: 69%;
+	border:  solid black 1px;
+	padding: 1%;
+}
+
+#left {
+	margin-top: 1%;
+	position: absolute;
+	left: 0.5%;
+	height: 100%;
+	width: 15%;
+	border: solid black 1px;
+	padding: 0.5%;
+}
+
+#leftside, #rightside {
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 24px;
+}
